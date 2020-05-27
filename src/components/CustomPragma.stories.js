@@ -8,5 +8,5 @@ export default {
 };
 
 export const Failing = () => {
-  return <CustomPragma as={'div'}>{'emotion jsx'}</CustomPragma>;
+  return <CustomPragma>{'emotion jsx'}</CustomPragma>;
 };

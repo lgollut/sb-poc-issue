@@ -1,16 +1,12 @@
+/** @jsx jsx */
 import { jsx } from '@emotion/core';
 import PropTypes from 'prop-types';
 
-export function CustomPragma({ as = 'div', children }) {
-  return jsx(as, {}, children);
+export function CustomPragma({ children }) {
+  return <div>{children}</div>;
 }
 
 CustomPragma.propTypes = {
-  /**
-   * The component to use as root element
-   */
-  as: PropTypes.oneOf(['div', 'span']),
-
   /**
    * The text to display.
    */
