@@ -8,5 +8,5 @@ export default {
 };
 
 export const Working = () => {
-  return <CustomPragma>{'emotion jsx'}</CustomPragma>;
+  return <CustomPragma>{'jsx with emotion pragma'}</CustomPragma>;
 };
