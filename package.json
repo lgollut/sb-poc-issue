@@ -1,0 +1,32 @@
+{
+  "name": "sb-poc-pragma",
+  "version": "1.0.0",
+  "description": "Reproductible Storybook issue",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook"
+  },
+  "keywords": [
+    "storybook",
+    "react",
+    "issue"
+  ],
+  "author": "Louis Gollut <louis.gollut@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.0",
+    "@babel/plugin-transform-runtime": "^7.10.0",
+    "@babel/preset-env": "^7.10.0",
+    "@babel/preset-react": "^7.10.0",
+    "@storybook/addon-docs": "6.0.0-beta.16",
+    "@storybook/react": "6.0.0-beta.16",
+    "babel-loader": "^8.1.0",
+    "prettier": "^2.0.5",
+    "prop-types": "^15.7.2"
+  }
+}
