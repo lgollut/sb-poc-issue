@@ -7,6 +7,6 @@ export default {
   component: CustomPragma,
 };
 
-export const Failing = () => {
+export const Working = () => {
   return <CustomPragma>{'emotion jsx'}</CustomPragma>;
 };
